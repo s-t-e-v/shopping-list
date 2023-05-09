@@ -1,0 +1,20 @@
+.btn-del {
+    color: red;
+    font-weight: bold;
+
+    border: none;
+    background: none;
+
+    padding: 0 0.5em;
+
+}
+
+.item-text {
+    background: none;
+    border: none;
+    font-size: 1.005em;
+}
+
+.item-text:focus {
+    outline: none;
+}

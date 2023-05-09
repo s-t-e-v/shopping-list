@@ -5,9 +5,11 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.App {
-
+body, html {
   background-color: #FFC0CB;
+}
+
+.App {
 
   text-align: center;
 
@@ -34,6 +36,11 @@
   margin-top: 2em;
 }
 
-button {
-  padding: 0.0.5em;
+.list-container {
+  margin-top: 1em;
+}
+
+.btn-add {
+  padding: 0 0.5em;
+  margin-left: 5px;
 }

@@ -13,15 +13,19 @@ function App() {
         <h2>Items To Buy</h2>
 
         <form>
-
-            <div className='entry-container'>
-              <input type="text" placeholder='Add a new item' />
-              <button>Add</button>
-              <ListItem text={"Hello"} />
-              <ListItem text={"World !"}/>
-            </div>
-
+          <div className='entry-container'>
+            <input type="text" placeholder='Add a new item' />
+            <button className='btn-add'>Add</button>
+          </div>
+          <div className='list-container'>
+            <ListItem text={"Hello"} />
+            <ListItem text={"World !"}/>
+            <ListItem text={"I want"}/>
+            <ListItem text={"to be"}/>
+            <ListItem text={"good!"}/>
+          </div>
         </form>
+
       </main>
     
    </div>
