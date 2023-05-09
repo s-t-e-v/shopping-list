@@ -1,0 +1,39 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.App {
+
+  background-color: #FFC0CB;
+
+  text-align: center;
+
+  padding-top: 10rem;
+
+}
+
+.todo-container {
+
+  width: 600px;
+  background-color: white;
+  margin: 0 auto;
+  margin-top: 3em;
+
+  padding: 2em;
+
+  text-align: center;
+
+  border: 3px dashed black;
+
+}
+
+.entry-container {
+  margin-top: 2em;
+}
+
+button {
+  padding: 0.0.5em;
+}
