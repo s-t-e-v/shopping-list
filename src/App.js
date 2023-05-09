@@ -1,4 +1,6 @@
 import './App.css';
+import ListItem  from './ListItem';
+
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
             <div className='entry-container'>
               <input type="text" placeholder='Add a new item' />
               <button>Add</button>
+              <ListItem text={"Hello"} />
+              <ListItem text={"World !"}/>
             </div>
 
         </form>
